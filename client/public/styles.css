@@ -116,6 +116,8 @@ img { display: block; max-width: 100%; }
 .section-heading--split { max-width: none; display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-bottom: 36px; }
 .section-heading h2, .feature-product h2, .story-section h2, .delivery-card h2 { font-size: clamp(2.35rem, 4.4vw, 4.1rem); }
 .section-heading__note { max-width: 290px; margin: 0 0 6px; color: var(--muted); font-size: .84rem; line-height: 1.85; }
+.section-heading__note p { margin: 0 0 8px; }
+.section-heading__note .text-link { font-size: .8rem; }
 .category-filter { display: flex; align-items: center; gap: 8px; overflow-x: auto; padding-bottom: 13px; margin-bottom: 23px; scrollbar-width: thin; }
 .category-filter__button { white-space: nowrap; display: inline-flex; align-items: center; gap: 8px; background: transparent; border: 1px solid rgba(37,49,43,.21); color: var(--ink); border-radius: 999px; padding: 9px 14px; cursor: pointer; font-size: .82rem; transition: .2s var(--ease); }
 .category-filter__button:hover, .category-filter__button.is-active { border-color: var(--green-deep); background: var(--green-deep); color: white; }
