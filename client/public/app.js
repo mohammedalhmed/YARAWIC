@@ -174,7 +174,7 @@ function productCard(product) {
         <h3>${escapeHTML(product.name)}</h3>
         <div class="product-card__bottom">
           <span class="product-card__price">${priceText}</span>
-          <button type="button" class="product-card__action" data-open-product="${product.id}" aria-label="عرض تفاصيل ${escapeHTML(product.name)}" aria-controls="product-modal" aria-haspopup="dialog" aria-expanded="false">←</button>
+          <button type="button" class="product-card__action" data-open-product="${product.id}" aria-label="عرض تفاصيل ${escapeHTML(product.name)}" aria-controls="product-modal" aria-haspopup="dialog" aria-expanded="false"><span>التفاصيل</span><b aria-hidden="true">←</b></button>
         </div>
       </div>
     </article>`;
@@ -313,6 +313,10 @@ function toggleMobileMenu() {
 }
 
 document.addEventListener('click', (event) => {
+  if (mobileMenu.classList.contains('is-open') && !event.target.closest('.site-header')) {
+    closeMobileMenu();
+  }
+
   const productTrigger = event.target.closest('[data-open-product]');
   if (productTrigger) {
     openProduct(productTrigger.dataset.openProduct, productTrigger);
