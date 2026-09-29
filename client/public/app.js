@@ -1,147 +1,130 @@
+// Catalog data transcribed from the YARAWIC WhatsApp catalog on 2026-09-29.
 const productCatalog = [
   {
-    id: 'mixed-pickles',
-    category: 'pickles',
-    categoryLabel: 'المخللات',
-    name: 'مخلل مشكل',
-    short: 'تشكيلة خضار مخللة للمائدة اليومية.',
-    variants: [{ label: '600 جم', price: 1500 }],
-    image: './assets/products/yarawic-reference-12.jpg',
-    imageAlt: 'عبوة مخلل مشكل من ياراويك مع خضروات مخللة',
-    badge: '600 جم',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'liquid-hot-pepper', category: 'sauces', categoryLabel: 'الصوصات والشطة', name: 'شطة سائلة حارة (حريفة)',
+    short: 'شطة سائلة حارة، السعر المنشور 1000 ريال.', variants: [{ label: '450 مل', price: 1000 }],
+    image: './assets/products/yarawic-reference-10.jpg', imageAlt: 'شطة سائلة حارة من ياراويك', badge: '450 مل', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
   },
   {
-    id: 'cucumber-pickles',
-    category: 'pickles',
-    categoryLabel: 'المخللات',
-    name: 'مخلل الخيار',
-    short: 'أحد أصناف المخللات المنشورة في كتالوج ياراويك.',
-    variants: [{ label: '600 جم', price: 1500 }],
-    image: './assets/products/yarawic-reference-03.jpg',
-    imageAlt: 'صورة مرجعية لبرطمان خضار مخللة من منتجات ياراويك',
-    badge: '600 جم',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'yellow-high-class-sauce', category: 'sauces', categoryLabel: 'الصوصات والشطة', name: 'صوص فلفل أصفر حار (هاي كلاس)',
+    short: 'فلفل أصفر متخلل بطعم حامضي بالحُمر 50%، قوام ناعم وخفيف، حار متوسط.', variants: [{ label: '230 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-11.jpg', imageAlt: 'صوص فلفل أصفر حار من ياراويك', badge: 'حار متوسط', availability: 'متوفر حسب التأكيد', ingredients: 'فلفل أصفر متخلل بالحُمر.', storage: null, leadTime: null
   },
   {
-    id: 'strawberry-jam',
-    category: 'jams',
-    categoryLabel: 'المربيات',
-    name: 'مربى الفراولة',
-    short: 'متاحة بخيارات سكر عادي، بدون سكر، وخيار دايت حسب الكتالوج المنشور.',
-    variants: [
-      { label: '230 جم — سكر عادي', price: 1250 },
-      { label: '230 جم — بدون سكر', price: 1500 },
-      { label: '230 جم — دايت', price: 1500 }
-    ],
-    image: './assets/products/yarawic-reference-04.jpg',
-    imageAlt: 'صورة مرجعية لمربى فواكه من منتجات ياراويك',
-    badge: '230 جم',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'green-hot-sauce', category: 'sauces', categoryLabel: 'الصوصات والشطة', name: 'صوص فلفل أخضر حار',
+    short: 'صوص مركز مطحون متوسط النعومة مع البذور، بلا مواد حافظة أو ألوان أو مثخنات صناعية.', variants: [{ label: '230 مل', price: 900 }, { label: '450 مل', price: 1700 }],
+    image: './assets/products/yarawic-reference-10.jpg', imageAlt: 'صوص فلفل أخضر حار من ياراويك', badge: 'حار', availability: 'متوفر حسب التأكيد', ingredients: 'فلفل أخضر حار، حُمر، ماء، زيت دوار الشمس، كاري، كركم، خل وملح الليمون.', storage: 'الصلاحية أسبوعان بعد الفتح وشهران قبل الفتح.', leadTime: null
   },
   {
-    id: 'fruit-jam',
-    category: 'jams',
-    categoryLabel: 'المربيات',
-    name: 'مربى فواكه حسب التوفر',
-    short: 'تتوفر أصناف فواكه إضافية وطلبات خاصة بحسب الموسم.',
-    variants: [{ label: '230 جم — يُحدد عند الطلب', price: null }],
-    image: './assets/products/yarawic-reference-05.jpg',
-    imageAlt: 'صورة مرجعية لمكونات ومنتجات ياراويك الغذائية',
-    badge: 'حسب التوفر',
-    availability: 'حسب الموسم والطلب',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'mango-achar', category: 'pantry', categoryLabel: 'العشار', name: 'عشار مانجا أحمر', short: 'بسباس أحمر، حار قليلاً.', variants: [{ label: '230 جم', price: 800 }, { label: '500 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-03.jpg', imageAlt: 'عشار مانجا أحمر من ياراويك', badge: 'حار قليلاً', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
   },
   {
-    id: 'red-hot-sauce',
-    category: 'sauces',
-    categoryLabel: 'الصوصات والشطة',
-    name: 'صوص أحمر حار',
-    short: 'صوص حار متاح بحجمين وفق الكتالوج المنشور.',
-    variants: [
-      { label: '230 مل', price: 900 },
-      { label: '450 مل', price: 1700 }
-    ],
-    image: './assets/products/yarawic-reference-10.jpg',
-    imageAlt: 'زجاجة صوص أحمر من منتجات ياراويك',
-    badge: 'حار',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'green-lemon-achar', category: 'pantry', categoryLabel: 'العشار', name: 'عشار ليمون أخضر', short: 'بسباس أخضر، حار جداً.', variants: [{ label: '230 جم', price: 800 }, { label: '500 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-03.jpg', imageAlt: 'عشار ليمون أخضر من ياراويك', badge: 'حار جداً', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
   },
   {
-    id: 'high-class-sauce',
-    category: 'sauces',
-    categoryLabel: 'الصوصات والشطة',
-    name: 'صوص هاي كلاس',
-    short: 'خيار صوص مميز من كتالوج ياراويك، بحجمين متاحين.',
-    variants: [
-      { label: '230 مل', price: 1500 },
-      { label: '450 مل', price: 2500 }
-    ],
-    image: './assets/products/yarawic-reference-11.jpg',
-    imageAlt: 'صوص ياراويك الأحمر مع طبق جانبي',
-    badge: 'حار',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'red-lemon-achar', category: 'pantry', categoryLabel: 'العشار', name: 'عشار ليمون أحمر', short: 'بسباس أحمر، غير حار.', variants: [{ label: '230 جم', price: 800 }, { label: '500 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-03.jpg', imageAlt: 'عشار ليمون أحمر من ياراويك', badge: 'غير حار', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
   },
   {
-    id: 'achar-lemon',
-    category: 'pantry',
-    categoryLabel: 'العشار',
-    name: 'عشار ليمون',
-    short: 'متاح بالليمون الأحمر أو الأخضر الحار، وفق الكتالوج المنشور.',
-    variants: [
-      { label: '230 جم', price: 800 },
-      { label: '550 جم', price: 1500 }
-    ],
-    image: './assets/products/yarawic-reference-03.jpg',
-    imageAlt: 'صورة مرجعية لمنتج مخلل من ياراويك',
-    badge: 'خياران',
-    availability: 'متوفر حسب التأكيد',
-    ingredients: null,
-    storage: null,
-    leadTime: null
+    id: 'grape-jam', category: 'jams', categoryLabel: 'المربيات', name: 'مربى عنب', short: 'مربى عنب رازقي أو عاصمي.', variants: [{ label: '230 جم', price: 1600 }],
+    image: './assets/products/yarawic-reference-05.jpg', imageAlt: 'مربى عنب من ياراويك', badge: '230 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
   },
   {
-    id: 'fermented-cabbage',
-    category: 'fermented',
-    categoryLabel: 'مخمّر الملفوف',
-    name: 'مخمّر الملفوف',
-    short: 'ملفوف أبيض أو أحمر بتخمير بكتيري، يُطلب مسبقًا.',
-    variants: [
-      { label: '200 جم', price: 1000 },
-      { label: '330 جم', price: 2000 },
-      { label: '500 جم', price: 3000 }
-    ],
-    extraOptions: [
-      { label: 'ملفوف أبيض', price: 0 },
-      { label: 'ملفوف أحمر', price: 500 }
-    ],
-    image: './assets/products/yarawic-reference-07.jpg',
-    imageAlt: 'عبوة مخمّر الملفوف من ياراويك مع ملفوف أخضر',
-    badge: 'طلب مسبق',
-    availability: 'يُجهز حسب الطلب',
-    ingredients: 'ملفوف أبيض أو أحمر ومحلول ملحي، بحسب الوصف المنشور.',
-    storage: 'يُحفظ في الثلاجة عند 5°م ويستخدم بملعقة نظيفة وجافة، وفق الإرشادات المنشورة.',
-    leadTime: 'أسبوعان كحد أدنى بعد تثبيت الطلب'
+    id: 'strawberry-jam', category: 'jams', categoryLabel: 'المربيات', name: 'مربى فراولة', short: 'فراولة طازجة، كاملة أو مهروسة أو مخلوطة حسب الرغبة.', variants: [{ label: '230 جم — سكر عادي', price: 1250 }, { label: '230 جم — بدون سكر', price: 1500 }, { label: '230 جم — سكر استيفيانا (دايت)', price: 1500 }],
+    image: './assets/products/yarawic-reference-04.jpg', imageAlt: 'مربى فراولة من ياراويك', badge: '230 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'kiwi-jam', category: 'jams', categoryLabel: 'المربيات', name: 'مربى كيوي', short: 'مربى كيوي بطعم حامضي.', variants: [{ label: '230 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-05.jpg', imageAlt: 'مربى كيوي من ياراويك', badge: '230 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'tomato-ketchup', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'كاتشب الطماطم', short: 'يصنع طازجاً.', variants: [{ label: '230 جم', price: 1500 }, { label: '450 جم', price: 3000 }],
+    image: './assets/products/yarawic-reference-10.jpg', imageAlt: 'كاتشب الطماطم من ياراويك', badge: 'يصنع طازجاً', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'honey-ketchup', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'كاتشب بالعسل البلدي', short: 'بديل للسكر العادي، مع خيار عسل المراعي أو عسل السمر.', variants: [{ label: '230 جم — عسل المراعي', price: 2000 }, { label: '230 جم — عسل السمر', price: 2500 }],
+    image: './assets/products/yarawic-reference-10.jpg', imageAlt: 'كاتشب بالعسل البلدي من ياراويك', badge: 'بالعسل البلدي', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'hot-ketchup', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'كاتشب حار', short: 'كاتشب حار.', variants: [{ label: '230 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-10.jpg', imageAlt: 'كاتشب حار من ياراويك', badge: 'حار', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'natural-mayonnaise', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'مايونيز طبيعي', short: 'يصنع طازجاً.', variants: [{ label: '220 جم', price: 1000 }],
+    image: './assets/products/yarawic-reference-11.jpg', imageAlt: 'مايونيز طبيعي من ياراويك', badge: '220 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'diet-mayonnaise', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'مايونيز دايت', short: 'مستبدل الزيت بدهن حليب (زبدة طبيعية من مصدر حيواني).', variants: [{ label: 'حسب الكتالوج', price: 1800 }],
+    image: './assets/products/yarawic-reference-11.jpg', imageAlt: 'مايونيز دايت من ياراويك', badge: 'دايت', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'mixed-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخللات مشكلة', short: 'مخللات من أنواع الخضار المتنوعة.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخللات مشكلة من ياراويك', badge: '600 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'cucumber-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل الخيار', short: 'متاح قطعاً دائرية أو شرائح طولية أو خياراً كاملاً.', variants: [{ label: '550 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-03.jpg', imageAlt: 'مخلل خيار من ياراويك', badge: '550 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'carrot-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل الجزر', short: 'أحد أصناف مخللات الخضار المتاحة.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-03.jpg', imageAlt: 'مخلل جزر من ياراويك', badge: '600 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'cabbage-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل الملفوف (كوبيش)', short: 'مخلل ملفوف أبيض.', variants: [{ label: '550 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-07.jpg', imageAlt: 'مخلل ملفوف من ياراويك', badge: '550 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'red-cabbage-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل ملفوف أحمر (كوبيش)', short: 'مخلل ملفوف أحمر.', variants: [{ label: '550 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-07.jpg', imageAlt: 'مخلل ملفوف أحمر من ياراويك', badge: '550 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'cauliflower-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل الزهرة (القرنبيط)', short: 'أحد أصناف مخللات الخضار المتاحة.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخلل الزهرة من ياراويك', badge: '600 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'jalapeno-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل البسباس الأخضر (هالبينو)', short: 'مخلل فلفل أخضر حار.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخلل بسباس أخضر من ياراويك', badge: 'حار', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'beet-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل بنجر (شمندر)', short: 'أحد أصناف مخللات الخضار المتاحة.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخلل بنجر من ياراويك', badge: '600 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'broccoli-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل البروكلي', short: 'أحد أصناف مخللات الخضار المتاحة.', variants: [{ label: '600 جم', price: 1500 }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخلل بروكلي من ياراويك', badge: '600 جم', availability: 'متوفر حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'grape-leaves-pickles', category: 'pickles', categoryLabel: 'المخللات', name: 'مخلل ورق العنب', short: 'السعر يعتمد على عدد الأوراق.', variants: [{ label: '90 ورقة', price: 2500 }, { label: 'حسب عدد الورق', price: null }],
+    image: './assets/products/yarawic-reference-12.jpg', imageAlt: 'مخلل ورق العنب من ياراويك', badge: 'حسب العدد', availability: 'يُحدد حسب عدد الأوراق', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'pomegranate-molasses', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'دبس الرمان', short: 'السعر حسب موسم الفاكهة.', variants: [{ label: 'حسب الموسم', price: null }],
+    image: './assets/products/yarawic-reference-11.jpg', imageAlt: 'دبس الرمان من ياراويك', badge: 'حسب الموسم', availability: 'حسب الموسم', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'sugar-syrup', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'عسل صناعي (شراب السكر)', short: 'شراب سكر.', variants: [{ label: 'حسب الكتالوج', price: null }],
+    image: './assets/products/yarawic-reference-05.jpg', imageAlt: 'شراب السكر من ياراويك', badge: 'حسب التوفر', availability: 'حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'orange-concentrate', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'شراب برتقال مركز', short: 'شراب مركز حسب الموسم.', variants: [{ label: 'حسب الموسم', price: null }],
+    image: './assets/products/yarawic-reference-05.jpg', imageAlt: 'شراب برتقال مركز من ياراويك', badge: 'حسب الموسم', availability: 'حسب الموسم', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'orange-carrot-concentrate', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'شراب برتقال وجزر مركز', short: 'شراب مركز حسب الموسم.', variants: [{ label: 'حسب الموسم', price: null }],
+    image: './assets/products/yarawic-reference-05.jpg', imageAlt: 'شراب برتقال وجزر مركز من ياراويك', badge: 'حسب الموسم', availability: 'حسب الموسم', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'strawberry-concentrate', category: 'pantry', categoryLabel: 'المنكهات الأخرى', name: 'عصير مركز فراولة طبيعي', short: 'يُخفف حسب الرغبة.', variants: [{ label: '230 مل', price: null }],
+    image: './assets/products/yarawic-reference-04.jpg', imageAlt: 'عصير فراولة مركز من ياراويك', badge: '230 مل', availability: 'حسب التأكيد', ingredients: null, storage: null, leadTime: null
+  },
+  {
+    id: 'fermented-cabbage', category: 'fermented', categoryLabel: 'مخمّر الملفوف', name: 'مخمّر الملفوف بالبكتيريا النافعة',
+    short: 'تخمير بكتيري طبيعي (بروبيوتيك) من ملفوف أبيض أو أحمر، غني بالبروبيوتيك وخالٍ من المواد الحافظة.', variants: [{ label: '200 جم', price: 1000 }, { label: '330 جم', price: 2000 }, { label: '500 جم', price: 3000 }],
+    extraOptions: [{ label: 'ملفوف أبيض', price: 0 }, { label: 'ملفوف أحمر', price: 500 }], image: './assets/products/yarawic-reference-07.jpg', imageAlt: 'عبوة مخمّر الملفوف من ياراويك', badge: 'طلب مسبق', availability: 'يُجهز حسب الطلب', ingredients: 'ملفوف (أحمر أو أبيض) ومحلول ملحي من ملح صخري أو بحري أو هملايا أو نقي.', storage: 'يحفظ عند 5°م داخل الثلاجة، ويستخدم بملعقة نظيفة وجافة. يستهلك خلال أسبوع إلى أسبوعين من تاريخ الإنتاج.', leadTime: 'يجهز بعد تثبيت الطلب خلال أسبوعين كحد أدنى'
   }
 ];
-
 const categoryLabels = {
   all: 'كل المنتجات',
   pickles: 'المخللات',
