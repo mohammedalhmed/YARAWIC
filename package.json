@@ -105,5 +105,7 @@
     "vite": "^7.1.7",
     "vitest": "^2.1.4"
   },
-  "packageManager": "pnpm@10.18.0"
+  "packageManager": "pnpm@10.18.0",
+  "description": "YARAWIC — Arabic-first RTL product catalog with lightweight WhatsApp ordering.",
+  "author": "Mohammed Alhadrami / MAM_Tkno"
 }
