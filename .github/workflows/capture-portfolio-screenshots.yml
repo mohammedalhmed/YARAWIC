@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p docs/screenshots
           playwright screenshot --browser=chromium --full-page --viewport-size="1440,900" https://mohammedalhmed.github.io/YARAWIC/ docs/screenshots/home-desktop.png
-          playwright screenshot --browser=chromium --full-page --device="iPhone 13" https://mohammedalhmed.github.io/YARAWIC/ docs/screenshots/home-mobile.png
+          playwright screenshot --browser=chromium --full-page --viewport-size="390,844" https://mohammedalhmed.github.io/YARAWIC/ docs/screenshots/home-mobile.png
 
       - name: Commit screenshots
         uses: stefanzweifel/git-auto-commit-action@v5
