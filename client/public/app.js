@@ -166,7 +166,7 @@ function productCard(product) {
   return `
     <article class="product-card">
       <div class="product-card__image">
-        <img src="${product.image}" alt="${escapeHTML(product.imageAlt)}" loading="lazy" />
+        <img src="${escapeHTML(product.image)}" alt="${escapeHTML(product.imageAlt)}" loading="lazy" />
         <span class="product-card__badge">${escapeHTML(product.badge)}</span>
       </div>
       <div class="product-card__body">
@@ -174,7 +174,7 @@ function productCard(product) {
         <h3>${escapeHTML(product.name)}</h3>
         <div class="product-card__bottom">
           <span class="product-card__price">${priceText}</span>
-          <button type="button" class="product-card__action" data-open-product="${product.id}" aria-label="عرض تفاصيل ${escapeHTML(product.name)}" aria-controls="product-modal" aria-haspopup="dialog" aria-expanded="false"><span>التفاصيل</span><b aria-hidden="true">←</b></button>
+          <button type="button" class="product-card__action" data-open-product="${escapeHTML(product.id)}" aria-label="عرض تفاصيل ${escapeHTML(product.name)}" aria-controls="product-modal" aria-haspopup="dialog" aria-expanded="false"><span>التفاصيل</span><b aria-hidden="true">←</b></button>
         </div>
       </div>
     </article>`;
@@ -209,7 +209,7 @@ function openProduct(productId, opener = document.activeElement) {
 
   modalContent.innerHTML = `
     <div class="modal-product">
-      <div class="modal-product__image"><img src="${product.image}" alt="${escapeHTML(product.imageAlt)}" /></div>
+      <div class="modal-product__image"><img src="${escapeHTML(product.image)}" alt="${escapeHTML(product.imageAlt)}" /></div>
       <div class="modal-product__body">
         <p class="modal-product__category">${escapeHTML(product.categoryLabel)} · ${escapeHTML(product.availability)}</p>
         <h2 id="modal-title">${escapeHTML(product.name)}</h2>
