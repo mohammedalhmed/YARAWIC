@@ -16,6 +16,13 @@
 
 نسخة Home v0 عربية RTL لعلامة ياراويك، أعيد تصميمها بصريًا بأسلوب **Contemporary Arabic Pantry**. الموقع يعرض كتالوجًا تفاعليًا من بيانات محلية، ويقود الطلب إلى واتساب من دون حسابات أو دفع أو مخزون.
 
+## Screenshots
+
+<p>
+  <img src="docs/screenshots/home-desktop.png" width="67%" alt="YARAWIC desktop homepage" />
+  <img src="docs/screenshots/home-mobile.png" width="27%" alt="YARAWIC mobile homepage" />
+</p>
+
 ## Portfolio Proof
 
 | البعد | الدليل |
