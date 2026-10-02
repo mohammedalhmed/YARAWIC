@@ -1,6 +1,19 @@
 # YARAWIC — ياراويك
 
+![YARAWIC catalog visual](client/public/assets/yarawic-brand/yarawic-catalog-banner.jpg)
+
 نسخة Home v0 عربية RTL لعلامة ياراويك، أعيد تصميمها بصريًا بأسلوب **Contemporary Arabic Pantry**. الموقع يعرض كتالوجًا تفاعليًا من بيانات محلية، ويقود الطلب إلى واتساب من دون حسابات أو دفع أو مخزون.
+
+## Product Flow
+
+```mermaid
+flowchart LR
+    A["الواجهة الرئيسية"] --> B["استكشاف الفئات"]
+    B --> C["شبكة المنتجات"]
+    C --> D["تفاصيل المنتج"]
+    D --> E["اختيار الحجم / النوع"]
+    E --> F["طلب عبر واتساب"]
+```
 
 ## التشغيل المحلي
 
