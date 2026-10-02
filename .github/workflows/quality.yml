@@ -31,6 +31,9 @@ jobs:
       - name: Type check
         run: pnpm check
 
+      - name: Validate static catalog
+        run: pnpm validate:static
+
       - name: Test
         run: pnpm test
 
