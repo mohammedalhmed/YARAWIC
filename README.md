@@ -1,5 +1,7 @@
 # YARAWIC — ياراويك
 
+![Portfolio cover](docs/portfolio/cover.svg)
+
 ![Vite](https://img.shields.io/badge/Vite-Static_App-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
 ![RTL](https://img.shields.io/badge/Arabic_RTL-111111?style=flat-square)
