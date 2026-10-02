@@ -1,5 +1,14 @@
 # YARAWIC — ياراويك
 
+![Vite](https://img.shields.io/badge/Vite-Static_App-646CFF?style=flat-square&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
+![RTL](https://img.shields.io/badge/Arabic_RTL-111111?style=flat-square)
+![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
+
+**Arabic-first RTL product catalog with lightweight WhatsApp ordering.**
+
+[Interface](client/index.html) · [Product Logic](client/public/app.js) · [Styles](client/public/styles.css) · [Deploy Workflow](.github/workflows/deploy-pages.yml)
+
 ![YARAWIC catalog visual](client/public/assets/yarawic-brand/yarawic-catalog-banner.jpg)
 
 نسخة Home v0 عربية RTL لعلامة ياراويك، أعيد تصميمها بصريًا بأسلوب **Contemporary Arabic Pantry**. الموقع يعرض كتالوجًا تفاعليًا من بيانات محلية، ويقود الطلب إلى واتساب من دون حسابات أو دفع أو مخزون.
