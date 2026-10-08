@@ -7,7 +7,7 @@
 **رابط Manus العام:** <https://yarawic-2oytsbes.manus.space>
 **رابط GitHub Pages:** <https://mohammedalhmed.github.io/YARAWIC/>
 **آخر نسخة Manus منشورة:** `1ba5e01602ea1c994c40208f4dc1d5a006a00d21` (`1ba5e01`).
-**حالة GitHub:** جارٍ رفع مزامنة صور كتالوج واتساب الرسمية إلى `main`.
+**حالة GitHub:** تمت مزامنة صور كتالوج واتساب الرسمية إلى `main` في commit `57425ed`، ونجح Quality Gate ونشر GitHub Pages.
 **حالة هذا التعديل:** تمت مزامنة آخر تحديثات Manus، بما فيها 8 صور أصلية من كتالوج واتساب الرسمي، إلى ملفات GitHub تمهيدًا لتشغيل GitHub Actions.
 
 ## 2. التقنيات والبنية
