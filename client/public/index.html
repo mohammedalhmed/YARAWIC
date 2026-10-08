@@ -944,8 +944,8 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
 
   const CATS = [
     { id: 'pickles', label: 'المخللات', color: 'var(--c-pickles)', img: 'social/instagram-Dbls8nCCNZ6.jpg' },
-    { id: 'achar', label: 'العشار', color: 'var(--c-achar)', img: 'social/instagram-Dbd6-EwCGIP.jpg' },
-    { id: 'sauces', label: 'الصوصات والشطة', color: 'var(--c-sauces)', img: 'social/instagram-DbY0JSslQLe.jpg' },
+    { id: 'achar', label: 'العشار', color: 'var(--c-achar)', img: 'whatsapp-catalog/whatsapp-mango-achar.jpg' },
+    { id: 'sauces', label: 'الصوصات والشطة', color: 'var(--c-sauces)', img: 'whatsapp-catalog/whatsapp-yellow-hot-sauce.jpg' },
     { id: 'jams', label: 'المربيات', color: 'var(--c-jams)', img: 'social/instagram-DbggeW2CL1Z.jpg' },
     { id: 'fermented', label: 'مخمّر الملفوف', color: 'var(--c-fermented)', img: 'social/instagram-DboOOXMnNfl.jpg' },
     { id: 'pantry', label: 'منكّهات ومشروبات', color: 'var(--c-pantry)', img: '11' }
@@ -954,7 +954,7 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
 
   // Catalog data from the YARAWIC repository (client/public/app.js), transcribed from the WhatsApp catalog.
   const P = [
-    { id: 'mixed-pickles', cat: 'pickles', name: 'مخللات مشكلة', short: 'تشكيلة خضار مخللة في عبوة واحدة.', v: [['600 جم', 1500]], img: 'social/instagram-Dbls8nCCNZ6.jpg' },
+    { id: 'mixed-pickles', cat: 'pickles', name: 'مخللات مشكلة', short: 'تشكيلة خضار مخللة في عبوة واحدة.', v: [['600 جم', 1500]], img: 'whatsapp-catalog/whatsapp-mixed-vegetable-achar.jpg' },
     { id: 'cucumber-pickles', cat: 'pickles', name: 'مخلل الخيار', short: 'خيار مخلل، تختاره حلقات أو شرائح طولية أو حبات كاملة.', v: [['550 جم', 1500]], img: 'social/instagram-Dbls8nCCNZ6.jpg' },
     { id: 'carrot-pickles', cat: 'pickles', name: 'مخلل الجزر', short: 'جزر مخلل في عبوة 600 جم.', v: [['600 جم', 1500]], img: '03' },
     { id: 'cabbage-pickles', cat: 'pickles', name: 'مخلل الملفوف (كوبيش)', short: 'ملفوف أبيض مخلل.', v: [['550 جم', 1500]], img: '07' },
@@ -965,13 +965,13 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
     { id: 'broccoli-pickles', cat: 'pickles', name: 'مخلل البروكلي', short: 'بروكلي مخلل في عبوة 600 جم.', v: [['600 جم', 1500]], img: '12' },
     { id: 'grape-leaves-pickles', cat: 'pickles', name: 'مخلل ورق العنب', short: 'ورق عنب مخلل، وسعره حسب عدد الأوراق.', v: [['90 ورقة', 2500], ['حسب عدد الورق', null]], img: 'social/instagram-DbtbTyQCDEJ.jpg', avail: 'حسب عدد الأوراق' },
 
-    { id: 'mango-achar', cat: 'achar', name: 'عشار مانجا أحمر', short: 'مانجا بالبسباس الأحمر، حار قليلًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'social/instagram-Dbd6-EwCGIP.jpg', heat: 1 },
-    { id: 'green-lemon-achar', cat: 'achar', name: 'عشار ليمون أخضر', short: 'ليمون بالبسباس الأخضر، حار جدًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'social/instagram-Dbd6-EwCGIP.jpg', heat: 4 },
-    { id: 'red-lemon-achar', cat: 'achar', name: 'عشار ليمون أحمر', short: 'ليمون بالبسباس الأحمر، غير حار.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'social/instagram-Dbd6-EwCGIP.jpg', heat: 0 },
+    { id: 'mango-achar', cat: 'achar', name: 'عشار مانجا أحمر', short: 'مانجا بالبسباس الأحمر، حار قليلًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-mango-achar.jpg', heat: 1 },
+    { id: 'green-lemon-achar', cat: 'achar', name: 'عشار ليمون أخضر', short: 'ليمون بالبسباس الأخضر، حار جدًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-green-lemon-achar.jpg', heat: 4 },
+    { id: 'red-lemon-achar', cat: 'achar', name: 'عشار ليمون أحمر', short: 'ليمون بالبسباس الأحمر، غير حار.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-red-lemon-achar.jpg', heat: 0 },
 
-    { id: 'liquid-hot-pepper', cat: 'sauces', name: 'شطة سائلة حارة (حريفة)', short: 'شطة سائلة حارة في عبوة 450 مل.', v: [['450 مل', 1000]], img: 'social/instagram-DbY0JSslQLe.jpg', heat: 3 },
-    { id: 'yellow-high-class-sauce', cat: 'sauces', name: 'صوص فلفل أصفر حار (هاي كلاس)', short: 'فلفل أصفر مخلل بالحُمر بنسبة 50%، حامضي الطعم، ناعم القوام، متوسط الحرارة.', v: [['230 جم', 1500]], img: 'social/instagram-DbY0JSslQLe.jpg', heat: 2, ingredients: 'فلفل أصفر متخلل بالحُمر.' },
-    { id: 'green-hot-sauce', cat: 'sauces', name: 'صوص فلفل أخضر حار', short: 'صوص مركّز متوسط النعومة مع البذور، بلا مواد حافظة ولا ألوان ولا مثخّنات صناعية.', v: [['230 مل', 900], ['450 مل', 1700]], img: 'social/instagram-DbY0JSslQLe.jpg', heat: 3, ingredients: 'فلفل أخضر حار، حُمر، ماء، زيت دوّار الشمس، كاري، كركم، خل وملح الليمون.', storage: 'شهران قبل الفتح، وأسبوعان بعده.' },
+    { id: 'liquid-hot-pepper', cat: 'sauces', name: 'شطة سائلة حارة (حريفة)', short: 'شطة سائلة حارة في عبوة 450 مل.', v: [['450 مل', 1000]], img: 'whatsapp-catalog/whatsapp-liquid-hot-pepper.jpg', heat: 3 },
+    { id: 'yellow-high-class-sauce', cat: 'sauces', name: 'صوص فلفل أصفر حار (هاي كلاس)', short: 'فلفل أصفر مخلل بالحُمر بنسبة 50%، حامضي الطعم، ناعم القوام، متوسط الحرارة.', v: [['230 جم', 1500]], img: 'whatsapp-catalog/whatsapp-yellow-hot-sauce.jpg', heat: 2, ingredients: 'فلفل أصفر متخلل بالحُمر.' },
+    { id: 'green-hot-sauce', cat: 'sauces', name: 'صوص فلفل أخضر حار', short: 'صوص مركّز متوسط النعومة مع البذور، بلا مواد حافظة ولا ألوان ولا مثخّنات صناعية.', v: [['230 مل', 900], ['450 مل', 1700]], img: 'whatsapp-catalog/whatsapp-green-hot-sauce.jpg', heat: 3, ingredients: 'فلفل أخضر حار، حُمر، ماء، زيت دوّار الشمس، كاري، كركم، خل وملح الليمون.', storage: 'شهران قبل الفتح، وأسبوعان بعده.' },
 
     { id: 'grape-jam', cat: 'jams', name: 'مربى عنب', short: 'من عنب رازقي أو عاصمي.', v: [['230 جم', 1600]], img: '05' },
     { id: 'strawberry-jam', cat: 'jams', name: 'مربى فراولة', short: 'من فراولة طازجة: كاملة أو مهروسة أو مخلوطة حسب رغبتك.', v: [['230 جم · سكر عادي', 1250], ['230 جم · بدون سكر', 1500], ['230 جم · سكر ستيفيا (دايت)', 1500]], img: 'social/instagram-DbggeW2CL1Z.jpg' },

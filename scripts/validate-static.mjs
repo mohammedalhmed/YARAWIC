@@ -28,7 +28,7 @@ for (const ref of imageRefs) {
   if (!existsSync(resolveAsset(ref))) failures.push(`Missing local page asset: ${resolveAsset(ref)}`);
 }
 for (const ref of declaredImages) {
-  const localRef = ref.startsWith("social/") ? `assets/${ref}` : `assets/products/yarawic-reference-${ref}.jpg`;
+  const localRef = ref.startsWith("social/") || ref.startsWith("whatsapp-catalog/") ? `assets/${ref}` : `assets/products/yarawic-reference-${ref}.jpg`;
   if (!existsSync(resolveAsset(localRef))) failures.push(`Missing catalog image: ${resolveAsset(localRef)}`);
 }
 
