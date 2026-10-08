@@ -8,7 +8,7 @@
   "author": "Mohammed Alhadrami / MAM_Tkno",
   "scripts": {
     "dev": "node scripts/serve-static.mjs",
-    "check": "node scripts/validate-static.mjs && node --check client/public/app.js && node --check scripts/serve-static.mjs",
+    "check": "node scripts/validate-static.mjs && node --check client/public/instagram-feed.js && node --check scripts/serve-static.mjs",
     "test": "npm run check",
     "build": "npm run check"
   }
