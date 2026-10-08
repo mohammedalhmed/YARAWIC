@@ -23,7 +23,7 @@ for (const id of productIds) {
   if (!/^[a-z0-9-]+$/.test(id)) failures.push(`Unsafe product id: ${id}`);
 }
 
-const resolveAsset = (ref) => path.join(publicRoot, ref.replace(/^assets\//, ""));
+const resolveAsset = (ref) => path.join(publicRoot, ref);
 for (const ref of imageRefs) {
   if (!existsSync(resolveAsset(ref))) failures.push(`Missing local page asset: ${resolveAsset(ref)}`);
 }
@@ -51,7 +51,10 @@ else {
   try {
     const manifest = JSON.parse(readFileSync(socialManifest, "utf8"));
     for (const asset of manifest.assets ?? []) {
-      if (asset.asset && !existsSync(path.resolve(asset.asset))) failures.push(`Missing social asset: ${asset.asset}`);
+      if (asset.asset) {
+        const repoAsset = asset.asset.replace(/^public\//, "");
+        if (!existsSync(path.join(publicRoot, repoAsset))) failures.push(`Missing social asset: ${asset.asset}`);
+      }
     }
   } catch {
     failures.push("social-assets.json is not valid JSON");
