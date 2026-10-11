@@ -1,0 +1,172 @@
+{
+  "source": "WhatsApp Business catalog for YARAWIC",
+  "catalogUrl": "https://www.whatsapp.com/catalog/967775071200/",
+  "updatedAt": "2026-10-11",
+  "assets": [
+    {
+      "id": "mango-achar",
+      "name": "عشار مانجا أحمر",
+      "shareUrl": "https://wa.me/p/6583194311792327/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/6583194311792327/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/403680309_7377122635665429_6419108403452301894_n.jpg?stp=c34.0.600.600a_dst-jpg_p600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=657aed&_nc_ohc=diqL3X4bb6QQ7kNvwF92XZI&_nc_oc=Ado1Nb52WlRcwZyzcM2F6cwSIlQQQj60R5oAzBhexlDwGaErg7JlzJzqkGk6jhG5WAs&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=3c98LOv1h83J84YQY1dXFA&_nc_ss=7e20f&oh=00_AQN8EAUTC7FG1c12Zj_uY51wTyF0Ir781ACKgqFFxJ1ayQ&oe=6ACCE5B4",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-mango-achar.jpg",
+      "bytes": 26803,
+      "contentType": "image/jpeg",
+      "ogDescription": "بسباس احمر - حار قليلا \nالصغير 230 جم/ 800 ريال\nالكبير 500 جم / 1500 ريال"
+    },
+    {
+      "id": "green-lemon-achar",
+      "name": "عشار ليمون أخضر",
+      "shareUrl": "https://wa.me/p/6270948169672257/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/6270948169672257/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/506019429_2207099336394743_3984412825610577298_n.jpg?stp=c0.100.600.600a_dst-jpg_p600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=657aed&_nc_ohc=KLIK8gim2PAQ7kNvwFYLjD4&_nc_oc=AdqaKGxKyiTIq75CqfzKFxHEI5wsJif-MuGZfGLXFLEisIussCYK8LX8n_kP2Qza6CY&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=VDoJhjGO-hKQr-WxjhjEWw&_nc_ss=7e20f&oh=00_AQMfCZZu0hfXigZiE50twMMH33ZsEzHsqOGl7r7bY8hm2w&oe=6ACCE72F",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-green-lemon-achar.jpg",
+      "bytes": 113547,
+      "contentType": "image/jpeg",
+      "ogDescription": "ببسباس اخضر- حاااار جدا - احجام مختلفة\nالصغير 230 جم/ 800 ريال\nالكبير 500 جم / 1500 ريال"
+    },
+    {
+      "id": "red-lemon-achar",
+      "name": "عشار ليمون أحمر",
+      "shareUrl": "https://wa.me/p/7142756532430277/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/7142756532430277/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/407883991_7737976049552288_2057189832104740300_n.jpg?stp=c0.73.600.600a_dst-jpg_p600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=657aed&_nc_ohc=I3zbLSb-Qk4Q7kNvwFm9DTl&_nc_oc=AdpdxSCNeyXUuip9MboCeE0H8-FGvHVqa9Id-_Cu2Z8gWijHOiKDz3pwQN8gZ0JhCtw&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=Q3JCyQrhmTkcEsrF2Gvnyg&_nc_ss=7e20f&oh=00_AQMqkl0hQ23X9lsLoasQY4CHxNKrs8EX-d139gXGr6vvWA&oe=6ACCE4D7",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-red-lemon-achar.jpg",
+      "bytes": 45053,
+      "contentType": "image/jpeg",
+      "ogDescription": "بسباس احمر - غير حار - احجام مختلفة\nالصغير 230 جم/ 800 ريال\nالكبير 500 جم / 1500 ريال"
+    },
+    {
+      "id": "green-mango-achar",
+      "name": "عشار مانجا أخضر",
+      "shareUrl": "https://wa.me/p/9627267924063116/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/9627267924063116/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/506605062_24330722466520641_94970254273391859_n.jpg?stp=c125.0.600.600a_dst-jpg_p600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=657aed&_nc_ohc=eLRmdwVzD0AQ7kNvwF8gSYI&_nc_oc=Adr1pWWEPO0WSM7OdGkWBCCbZwsc8keBeUmKOW97TWtwIEqjlKvYJ8zdtOXSwB0PnbU&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=VPFC7w6T7a9ybudjnOEtPQ&_nc_ss=7e20f&oh=00_AQNi7kfxdR6nxQPw7g9_uU51lMcrzXoy6K_Uek3DnBXWmw&oe=6ACCEB7A",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-green-mango-achar.jpg",
+      "bytes": 57787,
+      "contentType": "image/jpeg",
+      "ogDescription": "بسباس اخضر - حااار - احجام مختلفة\nالصغير 230 جم/ 800 ريال\nالكبير 500 جم / 1500 ريال"
+    },
+    {
+      "id": "mixed-vegetable-achar",
+      "name": "عشار مع مخلل جزر وبسباس ومشكل خضار",
+      "shareUrl": "https://wa.me/p/24832326429703679/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/24832326429703679/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/687536246_1497122095239659_8891364049383647722_n.jpg?stp=c0.100.600.600a_dst-jpg_p600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=657aed&_nc_ohc=oBnr3uD3MJQQ7kNvwFgGjKn&_nc_oc=AdqkIzj055b68FWOs0p83HZM4NG-JQ2b3u9Co0wRMCgTicgzqRadykeEi5CJq3fZRYY&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=rwiKqJVQWu334dQaFFDdDA&_nc_ss=7e20f&oh=00_AQPAvBPuqcJuLg3dPzEnJEfa3S3xOOCkwFWAN75xqVbjEA&oe=6ACCBD55",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-mixed-vegetable-achar.jpg",
+      "bytes": 40272,
+      "contentType": "image/jpeg",
+      "ogDescription": "الصغير 230 جم/ 800 ريال\nالكبير 500 جم / 1500 ريال"
+    },
+    {
+      "id": "liquid-hot-pepper",
+      "name": "شطة سائلة حارة (حريفة)",
+      "shareUrl": "https://wa.me/p/6897436567039330/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/6897436567039330/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/648313374_888347810698951_6784647941282668872_n.jpg?stp=c0.56.600.600a_dst-jpg_p600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=657aed&_nc_ohc=9x0fHndVCEcQ7kNvwGmbgd9&_nc_oc=AdqqWzLsIwcpn_zrrVJ3MkIU0ZvBhY9Uadnhr56MUS4g0c5hzVGSMZjJUYT59D3yijk&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=e9DkgaeBrb-czBNef47zcg&_nc_ss=7e20f&oh=00_AQNtrTsXssYTJ3bA_C9Vy7rjC1A60oY9SZZOEf3xMyY5qQ&oe=6ACCE301",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-liquid-hot-pepper.jpg",
+      "bytes": 21163,
+      "contentType": "image/jpeg",
+      "ogDescription": "السعر 1000 ريال\nمدرج صورة كاتلوج معلومات المنتج 👈🏻"
+    },
+    {
+      "id": "yellow-hot-sauce",
+      "name": "صوص فلفل أصفر حار (هاي كلاس)",
+      "shareUrl": "https://wa.me/p/25103362839250976/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/25103362839250976/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/686539987_1456183422317066_3669006832588885422_n.jpg?stp=c0.100.600.600a_dst-jpg_p600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=657aed&_nc_ohc=jbXzE03DB9AQ7kNvwEpoEKx&_nc_oc=AdoFHYof2KEmNopWYPlymCcRIiJFvuStBK6i5xia249Z2Jb1KOM3Zx_8lHDu9REIt7o&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=nkr61974d7t2c6J5Xl6ASg&_nc_ss=7e20f&oh=00_AQOIPDH82Iky6ZzszWKIF1hX3kepUdVh7NBdub7G98VXMQ&oe=6ACCC166",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-yellow-hot-sauce.jpg",
+      "bytes": 35526,
+      "contentType": "image/jpeg",
+      "ogDescription": "فلفل اصفر متخلل/ طعم حامضي بالحُمر50% - قوام ناعم متجانس خفيف - 230جم - حار متوسط - السعر 1500 ريال\nمدرج صورة كاتلوج معلومات المنتج 👈🏻"
+    },
+    {
+      "id": "green-hot-sauce",
+      "name": "صوص فلفل أخضر حار",
+      "shareUrl": "https://wa.me/p/7641786329182956/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/7641786329182956/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/686303863_1702602657419179_3932120127919524777_n.jpg?stp=c0.150.600.600a_dst-jpg_p600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=657aed&_nc_ohc=K1gQm7PDI1kQ7kNvwHyxD4O&_nc_oc=AdoL95jFH_AwL7UkNrd91QKKOZAOI9YTPVOgI-1z2cQEYg84bXT4yU_RL8MwsPUpBCM&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=EbVTuMaiRIJa-2-m_LpELg&_nc_ss=7e20f&oh=00_AQOyWHnVPmoPAR71T-vhlYUoFG0hdZfjbRRHzv6rohhyuA&oe=6ACCC6BF",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-green-hot-sauce.jpg",
+      "bytes": 37599,
+      "contentType": "image/jpeg",
+      "ogDescription": "المكونات: \nفلفل اخضر حار - حُمر - ماء - زيت دوار الشمس - كاري- كركم - خل - ملح الليمون\n \n المواصفات:  \n• حااااار 🔥\n• مركزة \n• مطحون متوسط النعومة مع البذور \n• لا يحتوي على مواد حافظة او نكهات او الوان او مثخنات صناعية \n\nالصلاحية:\nاسبوعين من بعد فتح العلبه ، وشهرين قبل الفتح \n\n• حجم العلبة 230  / 450 مل\n• بسعر 900 / 1700 ريال"
+    },
+    {
+      "id": "grape-jam",
+      "name": "مربى عنب",
+      "shareUrl": "https://wa.me/p/24182625631385010/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/24182625631385010/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/407456130_6422371147864830_3597908666319763542_n.jpg?stp=c14.0.600.600a_dst-jpg_p600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=657aed&_nc_ohc=RZFqE4cMJ7IQ7kNvwEksId7&_nc_oc=Adq5bMi9z40GCq8_nPtF0rrydiAff1VpH9ER311OUXeYktV-AXOWwehq6j2z7adnjsI&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=aZuxDgccmtHb3j3qMbxYLw&_nc_ss=7820f&oh=00_AQNZEmGPJ3X1Xj2VMhSkLvTxcaPDqe8iYHqwJr5zLAYTbg&oe=6AD0B49E",
+      "localPath": "client/public/assets/whatsapp-catalog/grape-jam.jpg",
+      "bytes": 37375,
+      "contentType": "image/jpeg",
+      "ogDescription": "عنب رازقي - عاصمي \n230 جم - السعر 1600 ريال"
+    },
+    {
+      "id": "strawberry-jam",
+      "name": "مربى فراولة",
+      "shareUrl": "https://wa.me/p/6587983371310739/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/6587983371310739/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/697208505_2069225616973785_7753539933348871866_n.jpg?stp=c0.0.600.600a_dst-jpg_p600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=657aed&_nc_ohc=ibCvwEtPtSwQ7kNvwHsSoXa&_nc_oc=Adq3536hDzpWy_MO_ZPWdjolGqBj_e4Q7tQlBG9wHykiDN2-E0Ueuik5Q0IXQCkUkSw&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=OdIIjtwRG9u_dj0A2Rw4SA&_nc_ss=7820f&oh=00_AQMCKSFFcuBcLpoz1nXG7n88MEQPmDnvbAzZ_ofgmXQ9PA&oe=6AD0AE0E",
+      "localPath": "client/public/assets/whatsapp-catalog/strawberry-jam.jpg",
+      "bytes": 24307,
+      "contentType": "image/jpeg",
+      "ogDescription": "230 جم- فراولة طازجة ( كامل- مهروس- مخلوط) حسب الرغبة - السعر 1250 ريال\nمدرج صورة كاتلوج معلومات المنتج 👈🏻"
+    },
+    {
+      "id": "tomato-ketchup",
+      "name": "كاتشب الطماطم",
+      "shareUrl": "https://wa.me/p/7519389044755127/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/7519389044755127/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/407760836_7195799930472074_5129981544053673764_n.jpg?stp=c0.100.600.600a_dst-jpg_p600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=657aed&_nc_ohc=SubwM5dZ0TwQ7kNvwG6ZKvJ&_nc_oc=AdqVEiQue3jI5g1-rkQqscGfbbKt82gz-0FC1QxCffqqNwmQKkwc3YujzQia29_ARjQ&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=-qIZ8MaYLF8hR0WM-Yub4A&_nc_ss=7820f&oh=00_AQP_A-zxExotXk0yWxjO0I37FruiPdOMK5i7M_GAK_x21w&oe=6AD08D60",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-tomato-ketchup.jpg",
+      "bytes": 56890,
+      "contentType": "image/jpeg",
+      "ogDescription": "يصنع طازج  230 جم السعر 1500 ريال- حجم 450 جم ب 3000 ريال \nمدرج صورة كاتلوج معلومات المنتج 👈🏻"
+    },
+    {
+      "id": "honey-ketchup",
+      "name": "كاتشب بالعسل البلدي",
+      "shareUrl": "https://wa.me/p/27197649179873115/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/27197649179873115/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/534388262_1486495619362509_7992823122288692126_n.jpg?stp=c0.61.600.600a_dst-jpg_p600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=657aed&_nc_ohc=e_cGVeegZdIQ7kNvwFm0ruP&_nc_oc=AdogU0kwXUQwPztOLL8Y2eDQAxr2G_BCEreeB41gRPtzJiq48RimhYZTEBXZ2k4c-uw&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=LQstBObX5rShoHw16UbYWA&_nc_ss=7820f&oh=00_AQNSOLNdN9v1U8TFs3ZX0LsQaKLeJ44K0I9NMT94mrTk_Q&oe=6AD0BE10",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-honey-ketchup.jpg",
+      "bytes": 48941,
+      "contentType": "image/jpeg",
+      "ogDescription": "بديل السكر العادي \nسعر العبوة 230 جم ب 2000 ريال لعسل المراعي \nو 2500 ريال لإضافة عسل السمر"
+    },
+    {
+      "id": "hot-ketchup",
+      "name": "كاتشب حار",
+      "shareUrl": "https://wa.me/p/26866956482941775/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/26866956482941775/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/536606411_1573277890317136_8964570624721281078_n.jpg?stp=c0.100.600.600a_dst-jpg_p600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=657aed&_nc_ohc=5GMs7caBOc4Q7kNvwHApH7p&_nc_oc=AdplSanKHIwyK9EXL3jHps3ClcjL8g0H6MGCkSN7usjZIWJjbRggM63IXrBOXMy3W0A&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=8d4iTfRa5o_yQpZUI0R6nQ&_nc_ss=7820f&oh=00_AQNw9fU5dXvvf3aRIRzwbCDVTZHf2Qd6Bq2JjuQCRYUiEA&oe=6AD09E96",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-hot-ketchup.jpg",
+      "bytes": 51228,
+      "contentType": "image/jpeg",
+      "ogDescription": "230 جم بسعر 1500 ريال"
+    },
+    {
+      "id": "natural-mayonnaise",
+      "name": "مايونيز طبيعي",
+      "shareUrl": "https://wa.me/p/7368036846561526/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/7368036846561526/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/407706015_7088604184531180_3056761449499351995_n.jpg?stp=c0.60.600.600a_dst-jpg_p600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=657aed&_nc_ohc=OcWjuCyKOpYQ7kNvwFnRuCD&_nc_oc=Ado3uAtXDKkKfwnQZg2_uJcEEQLdr5taxF89IngSz1iI-TsXjI-B6OZygwLqPKNbLtc&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=DMqoLIjLHNEngJB-iBtUpA&_nc_ss=7820f&oh=00_AQOZeec_mJgMQhzQBYTG1l8Nz_3pcAhx4xw-vFrI7d49CA&oe=6AD0A664",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-natural-mayonnaise.jpg",
+      "bytes": 93281,
+      "contentType": "image/jpeg",
+      "ogDescription": "يصنع طازج-  220 جم  -السعر 1000 ريال\nمدرج صورة كاتلوج معلومات المنتج 👈🏻"
+    },
+    {
+      "id": "diet-mayonnaise",
+      "name": "مايونيز دايت",
+      "shareUrl": "https://wa.me/p/26712566261726573/967775071200",
+      "resolvedUrl": "https://www.whatsapp.com/product/26712566261726573/967775071200/?app_absent=0",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t45.5328-9/686488744_950744107945949_1725634733807174195_n.jpg?stp=c0.60.600.600a_dst-jpg_p600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=657aed&_nc_ohc=yJJrXk6_SpsQ7kNvwEaq_pM&_nc_oc=Adq4O0NDWzqlBDaA5IqA1f8LW-HxpFm0qjFuyAI-7oBGNk-0M5vC53FKR3BRLDmvOz8&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=_V5qTNg_8zLUGpmI-MHjFg&_nc_ss=7820f&oh=00_AQPntgpOsQwCqDlxkVsx866f9B4R8sZORn7E5Lwi-_IpyQ&oe=6AD08ED0",
+      "localPath": "client/public/assets/whatsapp-catalog/whatsapp-diet-mayonnaise.jpg",
+      "bytes": 98429,
+      "contentType": "image/jpeg",
+      "ogDescription": "مستبدل الزيت ب دهن حليب ( زبدة طبيعي مصدر حيواني ) 1800 ريال"
+    }
+  ]
+}

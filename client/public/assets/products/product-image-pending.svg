@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">صورة المنتج قيد التحقق</title>
+  <desc id="desc">إطار محايد يوضح أن الصورة الأصلية لم تُعتمد بعد.</desc>
+  <rect width="400" height="400" rx="32" fill="#f2eee2"/>
+  <rect x="32" y="32" width="336" height="336" rx="24" fill="#fffdf7" stroke="#d9cda8" stroke-width="3" stroke-dasharray="10 9"/>
+  <g fill="none" stroke="#31523d" stroke-linecap="round" stroke-linejoin="round" stroke-width="9">
+    <rect x="142" y="113" width="116" height="94" rx="14"/>
+    <circle cx="177" cy="149" r="10"/>
+    <path d="m153 190 34-31 25 22 15-13 19 22"/>
+  </g>
+  <path d="M200 239c-18 0-32 14-32 32s14 32 32 32 32-14 32-32-14-32-32-32Zm0 50a18 18 0 1 1 0-36 18 18 0 0 1 0 36Z" fill="#c28f25"/>
+  <text x="200" y="334" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic, sans-serif" font-size="22" font-weight="700" fill="#31523d">الصورة الأصلية قيد التحقق</text>
+</svg>

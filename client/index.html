@@ -940,15 +940,15 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
   const PHONE = '967775071200';
   const DELIVERY_FEE = 1000;
   const IMG = 'assets/products/yarawic-reference-';
-  const imageSrc = (value) => value.startsWith('social/') ? `assets/${value}` : `${IMG}${value}.jpg`;
+  const imageSrc = (value) => value.includes('/') ? `assets/${value}` : `${IMG}${value}.jpg`;
 
   const CATS = [
     { id: 'pickles', label: 'المخللات', color: 'var(--c-pickles)', img: 'social/instagram-Dbls8nCCNZ6.jpg' },
     { id: 'achar', label: 'العشار', color: 'var(--c-achar)', img: 'whatsapp-catalog/whatsapp-mango-achar.jpg' },
     { id: 'sauces', label: 'الصوصات والشطة', color: 'var(--c-sauces)', img: 'whatsapp-catalog/whatsapp-yellow-hot-sauce.jpg' },
-    { id: 'jams', label: 'المربيات', color: 'var(--c-jams)', img: 'social/instagram-DbggeW2CL1Z.jpg' },
+    { id: 'jams', label: 'المربيات', color: 'var(--c-jams)', img: 'whatsapp-catalog/grape-jam.jpg' },
     { id: 'fermented', label: 'مخمّر الملفوف', color: 'var(--c-fermented)', img: 'social/instagram-DboOOXMnNfl.jpg' },
-    { id: 'pantry', label: 'منكّهات ومشروبات', color: 'var(--c-pantry)', img: '11' }
+    { id: 'pantry', label: 'منكّهات ومشروبات', color: 'var(--c-pantry)', img: 'whatsapp-catalog/whatsapp-tomato-ketchup.jpg' }
   ];
   const HEAT = ['غير حار', 'حار قليلًا', 'حار متوسط', 'حار', 'حار جدًا'];
 
@@ -966,6 +966,7 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
     { id: 'grape-leaves-pickles', cat: 'pickles', name: 'مخلل ورق العنب', short: 'ورق عنب مخلل، وسعره حسب عدد الأوراق.', v: [['90 ورقة', 2500], ['حسب عدد الورق', null]], img: 'social/instagram-DbtbTyQCDEJ.jpg', avail: 'حسب عدد الأوراق' },
 
     { id: 'mango-achar', cat: 'achar', name: 'عشار مانجا أحمر', short: 'مانجا بالبسباس الأحمر، حار قليلًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-mango-achar.jpg', heat: 1 },
+    { id: 'green-mango-achar', cat: 'achar', name: 'عشار مانجا أخضر', short: 'مانجا بالبسباس الأخضر، حار.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-green-mango-achar.jpg', heat: 3 },
     { id: 'green-lemon-achar', cat: 'achar', name: 'عشار ليمون أخضر', short: 'ليمون بالبسباس الأخضر، حار جدًا.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-green-lemon-achar.jpg', heat: 4 },
     { id: 'red-lemon-achar', cat: 'achar', name: 'عشار ليمون أحمر', short: 'ليمون بالبسباس الأحمر، غير حار.', v: [['230 جم', 800], ['500 جم', 1500]], img: 'whatsapp-catalog/whatsapp-red-lemon-achar.jpg', heat: 0 },
 
@@ -973,18 +974,18 @@ dialog::backdrop { background: rgba(10, 20, 14, .6); backdrop-filter: blur(4px);
     { id: 'yellow-high-class-sauce', cat: 'sauces', name: 'صوص فلفل أصفر حار (هاي كلاس)', short: 'فلفل أصفر مخلل بالحُمر بنسبة 50%، حامضي الطعم، ناعم القوام، متوسط الحرارة.', v: [['230 جم', 1500]], img: 'whatsapp-catalog/whatsapp-yellow-hot-sauce.jpg', heat: 2, ingredients: 'فلفل أصفر متخلل بالحُمر.' },
     { id: 'green-hot-sauce', cat: 'sauces', name: 'صوص فلفل أخضر حار', short: 'صوص مركّز متوسط النعومة مع البذور، بلا مواد حافظة ولا ألوان ولا مثخّنات صناعية.', v: [['230 مل', 900], ['450 مل', 1700]], img: 'whatsapp-catalog/whatsapp-green-hot-sauce.jpg', heat: 3, ingredients: 'فلفل أخضر حار، حُمر، ماء، زيت دوّار الشمس، كاري، كركم، خل وملح الليمون.', storage: 'شهران قبل الفتح، وأسبوعان بعده.' },
 
-    { id: 'grape-jam', cat: 'jams', name: 'مربى عنب', short: 'من عنب رازقي أو عاصمي.', v: [['230 جم', 1600]], img: '05' },
-    { id: 'strawberry-jam', cat: 'jams', name: 'مربى فراولة', short: 'من فراولة طازجة: كاملة أو مهروسة أو مخلوطة حسب رغبتك.', v: [['230 جم · سكر عادي', 1250], ['230 جم · بدون سكر', 1500], ['230 جم · سكر ستيفيا (دايت)', 1500]], img: 'social/instagram-DbggeW2CL1Z.jpg' },
+    { id: 'grape-jam', cat: 'jams', name: 'مربى عنب', short: 'من عنب رازقي أو عاصمي.', v: [['230 جم', 1600]], img: 'whatsapp-catalog/grape-jam.jpg' },
+    { id: 'strawberry-jam', cat: 'jams', name: 'مربى فراولة', short: 'من فراولة طازجة: كاملة أو مهروسة أو مخلوطة حسب رغبتك.', v: [['230 جم · سكر عادي', 1250], ['230 جم · بدون سكر', 1500], ['230 جم · سكر ستيفيا (دايت)', 1500]], img: 'whatsapp-catalog/strawberry-jam.jpg' },
     { id: 'kiwi-jam', cat: 'jams', name: 'مربى كيوي', short: 'مربى كيوي بطعم حامضي.', v: [['230 جم', 1500]], img: '05' },
 
     { id: 'fermented-cabbage', cat: 'fermented', name: 'مخمّر الملفوف بالبكتيريا النافعة', short: 'تخمير طبيعي بالبكتيريا النافعة (بروبيوتيك) من ملفوف أبيض أو أحمر، بلا مواد حافظة.', v: [['200 جم', 1000], ['330 جم', 2000], ['500 جم', 3000]], extra: [['ملفوف أبيض', 0], ['ملفوف أحمر', 500]], img: 'social/instagram-DboOOXMnNfl.jpg', avail: 'يُجهَّز عند الطلب', ingredients: 'ملفوف (أحمر أو أبيض) ومحلول ملحي من ملح صخري أو بحري أو هملايا أو نقي.', storage: 'يُحفظ في الثلاجة عند 5°م، ويُستخدم بملعقة نظيفة وجافة. يُستهلك خلال أسبوع إلى أسبوعين من تاريخ الإنتاج.', lead: 'يُجهَّز خلال أسبوعين كحد أدنى من تثبيت الطلب' },
 
-    { id: 'tomato-ketchup', cat: 'pantry', name: 'كاتشب الطماطم', short: 'يُصنع طازجًا.', v: [['230 جم', 1500], ['450 جم', 3000]], img: '10' },
-    { id: 'honey-ketchup', cat: 'pantry', name: 'كاتشب بالعسل البلدي', short: 'محلّى بالعسل البلدي بدل السكر: عسل المراعي أو عسل السمر.', v: [['230 جم · عسل المراعي', 2000], ['230 جم · عسل السمر', 2500]], img: '10' },
-    { id: 'hot-ketchup', cat: 'pantry', name: 'كاتشب حار', short: 'كاتشب بنكهة حارة.', v: [['230 جم', 1500]], img: '10', heat: 3 },
-    { id: 'natural-mayonnaise', cat: 'pantry', name: 'مايونيز طبيعي', short: 'يُصنع طازجًا.', v: [['220 جم', 1000]], img: '11' },
-    { id: 'diet-mayonnaise', cat: 'pantry', name: 'مايونيز دايت', short: 'بدهن الحليب (زبدة طبيعية) بدل الزيت.', v: [['الحجم عند الطلب', 1800]], img: '11' },
-    { id: 'pomegranate-molasses', cat: 'pantry', name: 'دبس الرمان', short: 'موسمي، وسعره حسب موسم الفاكهة.', v: [['حسب الموسم', null]], img: '11', avail: 'حسب الموسم' },
+    { id: 'tomato-ketchup', cat: 'pantry', name: 'كاتشب الطماطم', short: 'يُصنع طازجًا.', v: [['230 جم', 1500], ['450 جم', 3000]], img: 'whatsapp-catalog/whatsapp-tomato-ketchup.jpg' },
+    { id: 'honey-ketchup', cat: 'pantry', name: 'كاتشب بالعسل البلدي', short: 'محلّى بالعسل البلدي بدل السكر: عسل المراعي أو عسل السمر.', v: [['230 جم · عسل المراعي', 2000], ['230 جم · عسل السمر', 2500]], img: 'whatsapp-catalog/whatsapp-honey-ketchup.jpg' },
+    { id: 'hot-ketchup', cat: 'pantry', name: 'كاتشب حار', short: 'كاتشب بنكهة حارة.', v: [['230 جم', 1500]], img: 'whatsapp-catalog/whatsapp-hot-ketchup.jpg', heat: 3 },
+    { id: 'natural-mayonnaise', cat: 'pantry', name: 'مايونيز طبيعي', short: 'يُصنع طازجًا.', v: [['220 جم', 1000]], img: 'whatsapp-catalog/whatsapp-natural-mayonnaise.jpg' },
+    { id: 'diet-mayonnaise', cat: 'pantry', name: 'مايونيز دايت', short: 'بدهن الحليب (زبدة طبيعية) بدل الزيت.', v: [['الحجم عند الطلب', 1800]], img: 'whatsapp-catalog/whatsapp-diet-mayonnaise.jpg' },
+    { id: 'pomegranate-molasses', cat: 'pantry', name: 'دبس الرمان', short: 'موسمي، وسعره حسب موسم الفاكهة.', v: [['حسب الموسم', null]], img: 'products/product-image-pending.svg', avail: 'حسب الموسم' },
     { id: 'sugar-syrup', cat: 'pantry', name: 'عسل صناعي (شراب السكر)', short: 'شراب سكر.', v: [['الحجم عند الطلب', null]], img: '05', avail: 'حسب التأكيد' },
     { id: 'orange-concentrate', cat: 'pantry', name: 'شراب برتقال مركز', short: 'شراب مركّز موسمي.', v: [['حسب الموسم', null]], img: '05', avail: 'حسب الموسم' },
     { id: 'orange-carrot-concentrate', cat: 'pantry', name: 'شراب برتقال وجزر مركز', short: 'شراب مركّز موسمي.', v: [['حسب الموسم', null]], img: '05', avail: 'حسب الموسم' },

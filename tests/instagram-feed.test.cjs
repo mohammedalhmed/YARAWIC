@@ -51,8 +51,8 @@ class MockIntersectionObserver {
 }
 MockIntersectionObserver.instances = [];
 
-const source = fs.readFileSync('public/instagram-feed.js', 'utf8');
-const sourceData = JSON.parse(fs.readFileSync('public/data/instagram-posts.json', 'utf8'));
+const source = fs.readFileSync('client/public/instagram-feed.js', 'utf8');
+const sourceData = JSON.parse(fs.readFileSync('client/public/data/instagram-posts.json', 'utf8'));
 const data = {
   ...sourceData,
   posts: [...sourceData.posts, {
